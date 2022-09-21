@@ -19,9 +19,9 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/black"
-            android:alpha="0.7" />
+            android:layout_height="wrap_content"
+            android:alpha="0.7"
+            android:background="@color/black" />
     </FrameLayout>
 
     <FrameLayout
@@ -72,7 +72,8 @@
                     android:textSize="13sp"
                     android:textColor="@color/white"/>
 
-            </com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
